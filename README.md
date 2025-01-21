@@ -93,10 +93,10 @@ Create a directory '../dataset' for the above few-shot segmentation datasets and
 ## BibTeX
 If you use this code for your research, please consider citing:
 ````BibTeX
-@inproceedings{sun2024vrp,
-    title={VRP-SAM: SAM with Visual Reference Prompt},
-    author={Sun, Yanpeng and Chen, Jiahui and Zhang, Shan and Zhang, Xinyu and Chen, Qiang and Zhang, Gang and Ding, Errui and Wang, Jingdong and Li, Zechao},
-    booktitle={Conference on Computer Vision and Pattern Recognition 2024},
-    year={2024}
+@article{park2025foreground,
+  title={Foreground-Covering Prototype Generation and Matching for SAM-Aided Few-Shot Segmentation},
+  author={Park, Suho and Lee, SuBeen and Seong, Hyun Seok and Yoo, Jaejoon and Heo, Jae-Pil},
+  journal={arXiv preprint arXiv:2501.00752},
+  year={2025}
 }
 ````
