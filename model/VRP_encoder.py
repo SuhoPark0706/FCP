@@ -228,10 +228,7 @@ class VRP_encoder(nn.Module):
                 supp_feat_4 = F.interpolate(supp_feat_4, size=(64,64), mode='bilinear', align_corners=True)
                 _supp_feat_4 = F.interpolate(_supp_feat_4, size=(64,64), mode='bilinear', align_corners=True)
             supp_feat = torch.cat([supp_feat_3, supp_feat_2], 1)
-            
-            print(supp_feat_4.shape)
-            exit()
-            
+
             query_mask = F.interpolate(query_mask.unsqueeze(1).float(), size=(64,64), mode='nearest')
             support_mask = F.interpolate(support_mask_ori.unsqueeze(1).float(), size=(64,64), mode='nearest')
             pseudo_mask = self.get_pseudo_mask(_supp_feat_4, query_feat_4, support_mask)
