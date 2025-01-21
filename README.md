@@ -1,6 +1,6 @@
 # Foreground-Covering Prototype Generation and Matching for SAM-Aided Few-Shot Segmentation (FCP)
 This is the official repository for the following paper:
-> **Task-Disruptive Background Suppression for Few-Shot Segmentation** [[Arxiv]](https://www.arxiv.org/abs/2501.00752)
+> **Foreground-Covering Prototype Generation and Matching for SAM-Aided Few-Shot Segmentation** [[Arxiv]](https://www.arxiv.org/abs/2501.00752)
 > 
 > Suho Park*, SuBeen Lee*, Hyun Seok Seong, Jaejoon Yoo, Jae-Pil Heo\
 > Accepted by **AAAI 2025**
