@@ -46,7 +46,11 @@ Download following datasets:
 > ```
 > Download COCO2014 train/val annotations from our Google Drive: [[train2014.zip](https://drive.google.com/file/d/1cwup51kcr4m7v9jO14ArpxKMA4O3-Uge/view?usp=sharing)], [[val2014.zip](https://drive.google.com/file/d/1PNw4U3T2MhzAEBWGGgceXvYU3cZ7mJL1/view?usp=sharing)].
 > (and locate both train2014/ and val2014/ under annotations/ directory).
+       
 
+> #### 3. Image Encoder weights
+> Resnet : https://drive.google.com/drive/folders/1Hrz1wOxOZm4nIIS7UMJeL79AQrdvpj6v \
+> VGG : https://download.pytorch.org/models/vgg16_bn-6c64b313.pth
 
 Create a directory '../dataset' for the above few-shot segmentation datasets and appropriately place each dataset to have following directory structure:
 
@@ -59,6 +63,9 @@ Create a directory '../dataset' for the above few-shot segmentation datasets and
     │   ├── README.md           # intstruction for reproduction
     │   ├── train.py            # code for training HSNet
     │   └── SAM2Pred.py         # code for prediction module
+    │    
+    ├── resnet50_v2.pth
+    ├── vgg16.pth
     │    
     └── dataset/
         ├── VOC2012/            # PASCAL VOC2012 devkit
@@ -73,7 +80,6 @@ Create a directory '../dataset' for the above few-shot segmentation datasets and
             │   └── ..some json files..
             ├── train2014/
             └── val2014/
-       
 
 ## Training
 
