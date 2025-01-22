@@ -2,7 +2,7 @@
 This is the official repository for the following paper:
 > **Foreground-Covering Prototype Generation and Matching for SAM-Aided Few-Shot Segmentation** [[Arxiv]](https://www.arxiv.org/abs/2501.00752)
 > 
-> Suho Park*, SuBeen Lee*, Hyun Seok Seong, Jaejoon Yoo, Jae-Pil Heo\
+> Suho Park*, SuBeen Lee*, Hyun Seok Seong, Jaejoon Yoo, Jae-Pil Heo (*: equal contribution)\
 > Accepted by **AAAI 2025**
 
 
